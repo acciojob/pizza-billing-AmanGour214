@@ -71,10 +71,12 @@ public class Pizza {
             if(ExtraChees>0){
 
             this.bill+="Extra Cheese Added: 80\n";
+            ExtraChees++;
 
             }
            // for topping
             if(topping>0){
+                topping++;
                 if(isVeg){
                     this.bill+="Extra Toppings Added: 70\n";
                 }else this.bill+="Extra Toppings Added: 120\n";
@@ -84,12 +86,12 @@ public class Pizza {
                 takeaway++;
                 this.bill+="Paperbag Added: 20\n";
             }
-            this.bill+="Total Price:" +this.price+ "\n";
+            this.bill+="Total Price: " + this.price + "\n";
 
             return this.bill;
 
 
         } else
-        return "Total Price: " +this.price+ "\n";
+        return "Total Price: " + this.price + "\n";
     }
 }
