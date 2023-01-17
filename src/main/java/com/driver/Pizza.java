@@ -89,7 +89,7 @@ public class Pizza {
             return this.bill;
 
 
-        }
-        return this.bill;
+        } else
+        return "Total Price: " + this.price + "\n";
     }
 }
