@@ -81,6 +81,7 @@ public class Pizza {
             }
             // for bags
             if(takeaway>0){
+                takeaway++;
                 this.bill+="Paperbag Added: 20\n";
             }
             this.bill+="Total Price:"+this.price+"\n";
