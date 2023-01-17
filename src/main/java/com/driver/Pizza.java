@@ -20,7 +20,7 @@ public class Pizza {
         }
         else {
             this.price=400;
-            this.bill="Base Price Of The Pizza : 400\n";
+            this.bill="Base Price Of The Pizza: 400\n";
         }
 
     }
@@ -84,12 +84,12 @@ public class Pizza {
                 takeaway++;
                 this.bill+="Paperbag Added: 20\n";
             }
-            this.bill+="Total Price:"+this.price+"\n";
+            this.bill+="Total Price:" +this.price+ "\n";
 
             return this.bill;
 
 
         } else
-        return "Total Price: " + this.price + "\n";
+        return "Total Price: " +this.price+ "\n";
     }
 }
