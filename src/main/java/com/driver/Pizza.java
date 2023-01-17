@@ -16,11 +16,11 @@ public class Pizza {
         // your code goes here
         if(isVeg){
             this.price=300;
-            this.bill="Veg pizza base price : 300\n";
+            this.bill="Base Price Of The Pizza: 300\n";
         }
         else {
             this.price=400;
-            this.bill="Non-veg pizza base price : 400\n";
+            this.bill="Base Price Of The Pizza : 400\n";
         }
 
     }
