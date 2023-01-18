@@ -91,7 +91,9 @@ public class Pizza {
             return this.bill;
 
 
-        } else
-        return "Total Price: " + this.price + "\n";
+        }
+//           else
+//        return "Total Price: " + this.price + "\n";
+        return this.bill;
     }
 }
